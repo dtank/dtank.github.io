@@ -8,7 +8,7 @@ subtitle:
 description:
 keywords:
 author:  bolong.tbl
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -83,3 +83,18 @@ deploy:
   name: bolong.tbl
   email: tblddt@gmail.com
   branch: master
+
+search:   
+  path: search.xml   
+  field: post   
+  format: html   
+  limit: 10000
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: ARYhWBzgMxDdGbAG2jmW6P4V-gzGzoHsz #<app_id>
+  app_key: sqgCH3QIM8yKy3MD4SQLHcT0 #<app_key>
+  username: # Will be asked while deploying if is left blank
+  password: # Recommmended to be left blank. Will be asked while deploying if is left blank
+
+# plugins: hexo-generate-feed
