@@ -4,10 +4,10 @@
 
 # Site
 title: Bolong's Home
-subtitle:
-description:
-keywords:
-author:  bolong.tbl
+subtitle: Cogito, ergo sum
+description: 一个对未知充满好奇的人
+keywords: 
+author:  谭伯龙
 language: zh-CN
 timezone:
 
@@ -83,12 +83,6 @@ deploy:
   name: bolong.tbl
   email: tblddt@gmail.com
   branch: master
-
-search:   
-  path: search.xml   
-  field: post   
-  format: html   
-  limit: 10000
 
 leancloud_counter_security:
   enable_sync: true
